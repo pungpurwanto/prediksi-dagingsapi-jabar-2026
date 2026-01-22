@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # 1. KONFIGURASI HALAMAN
-st.set_page_config(page_title="Prediksi Konsumsi Daging Sapi Jawa Barat 2026", layout="wide")
+st.set_page_config(page_title="Prediksi Konsumsi Daging Sapi Jabar 2026", layout="wide")
 
 # 2. LOAD MODEL DAN ENCODER
 @st.cache_resource
