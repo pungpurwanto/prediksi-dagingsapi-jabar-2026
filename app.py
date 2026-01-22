@@ -42,7 +42,7 @@ st.sidebar.header("📊 Kontrol Prediksi")
 st.sidebar.markdown("Pilih wilayah dan tahun untuk melihat proyeksi konsumsi.")
 
 district_name = st.sidebar.selectbox("Pilih Kabupaten/Kota", label_encoder.classes_)
-target_year = st.sidebar.select_slider("Tahun Proyeksi", options=[2025, 2026, 2027], value=2026)
+target_year = st.sidebar.select_slider("Tahun Proyeksi", options=[2025, 2026, 2027, 2028, 2029, 2030], value=2026)
 
 # 4. HEADER UTAMA
 st.title("🥩 Prediksi Konsumsi Daging Sapi Jawa Barat")
